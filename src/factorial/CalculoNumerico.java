@@ -1,11 +1,23 @@
 package factorial;
 
 /**
+ * Esta clase permite el calculo de un numero
  *
- * @author Arturo
+ * @author Arturo 6037
  */
-public class CalculoNumerico {
+public class CalculoNumerico{
 
+    /**
+     * Constructor por defecto de la clase CalculoNumerico
+     */
+    public CalculoNumerico(){
+    }
+
+    /**
+     * Metodo encargado de calcular un número en función del valor inicial de j
+     *
+     * @return el metodo devuelve el valor resultante de la operacion
+     */
     public int calculoNumero(){
         int j;
         int f;
@@ -21,5 +33,5 @@ public class CalculoNumerico {
         }
         return f;
     }
-    
+
 }
